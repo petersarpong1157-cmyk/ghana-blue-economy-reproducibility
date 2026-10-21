@@ -45,8 +45,8 @@ Recorded audit environment: Windows 11; R 4.5.2; data.table 1.17.8; ranger 0.18.
 
 ## Publication and citation
 
-The manuscript is being prepared for journal submission. Do **not** infer that journal acceptance or publication has occurred. A Zenodo DOI should only be cited once a fixed release has been archived and the DOI verified.
+The manuscript is being prepared for journal submission. Do **not** infer that journal acceptance or publication has occurred. The archived GitHub release **v3.7.8** is available on Zenodo: https://doi.org/10.5281/zenodo.23542637. This DOI identifies the **v3.7.8 snapshot**, not subsequent changes on `main`. Future revisions should be cited using their own archived version when available.
 
 ## License
 
-No reuse license has yet been granted by both contributors. Code license and data-provider rights require separate confirmation.
+The repository's original software code and project-authored documentation are distributed under the [MIT License](LICENSE), to the extent the contributors hold the necessary rights. This license does **not** grant rights to any third-party Global Fishing Watch, NASA, Marine Regions, or other externally sourced datasets or materials. Their original terms remain applicable.
