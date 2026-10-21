@@ -1,5 +1,5 @@
 # Release preparation
 
-Initial repository metadata and method documentation. This is **not yet a frozen Zenodo DOI release**.
+The v3.7.8 GitHub release has been archived on Zenodo: https://doi.org/10.5281/zenodo.23542637.
 
-Before creating a citable GitHub release, add the verified standalone scripts, selected nonrestricted audit tables, input manifest/checksums, and a clear executable reproduction guide. Check that the final manuscript, coauthor approvals, and release citation describe the same version. Do not invent a DOI.
+The DOI resolves to the frozen v3.7.8 archive, not to subsequent `main` updates. Standalone scripts, input manifest/checksums, and a full executable reproduction guide remain priorities for a later version. The original code and project-authored documentation are MIT-licensed where the contributors hold applicable rights; source datasets remain governed by provider terms.
