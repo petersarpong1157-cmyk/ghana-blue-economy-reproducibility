@@ -1,0 +1,11 @@
+variable,mismatched_rows,max_abs_difference
+cell_id,0,0
+fishing_hours,0,0
+presence_hours,0,0
+gfw_record_present,0,
+chlor_a_mg_m3,0,0
+fishing_lag1,0,0
+fishing_lag12,0,0
+chlorophyll_lag1,0,0
+year,0,0
+month,0,0
