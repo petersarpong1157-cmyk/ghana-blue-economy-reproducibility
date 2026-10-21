@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this repository, cite the archived release when a DOI becomes available."
+title: "Ghana Blue Economy: Satellite Observation Gaps and Apparent Fishing-Effort Prediction"
+type: software
+authors:
+  - family-names: "Sarpong"
+    given-names: "Peter"
+    orcid: "https://orcid.org/0009-0000-0871-8285"
+  - family-names: "Verma"
+    given-names: "Monica"
+repository-code: "https://github.com/petersarpong1157-cmyk/ghana-blue-economy-reproducibility"
+abstract: "Code and reproducibility audit materials for an observational Ghana coastal AIS apparent-fishing-effort and satellite chlorophyll study."
