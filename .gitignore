@@ -1,0 +1,19 @@
+# Local/private data and raw archives
+*.zip
+*.tar
+*.nc
+*.gpkg
+*.shp
+*.dbf
+*.shx
+*.prj
+*.rds
+.Rhistory
+.RData
+.Rproj.user/
+Blue_Economy_R_Results/
+nasa_extracted/
+temporary_month/
+*.backup
+.DS_Store
+Thumbs.db
