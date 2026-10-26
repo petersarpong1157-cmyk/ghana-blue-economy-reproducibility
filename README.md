@@ -50,3 +50,11 @@ The manuscript is being prepared for journal submission. Do **not** infer that j
 ## License
 
 The repository's original software code and project-authored documentation are distributed under the [MIT License](LICENSE), to the extent the contributors hold the necessary rights. This license does **not** grant rights to any third-party Global Fishing Watch, NASA, Marine Regions, or other externally sourced datasets or materials. Their original terms remain applicable.
+
+## Dataset citation verification (26 October 2026)
+
+The Ghana EEZ spatial boundary uses **Flanders Marine Institute (2023), Maritime Boundaries Geodatabase: Maritime Boundaries and Exclusive Economic Zones (200NM), version 12**, DOI: https://doi.org/10.14284/632 (the official boundary-layer citation; distinct from the broader geodatabase DOI 10.14284/628).
+
+The satellite chlorophyll source is **NASA/GSFC Ocean Biology Processing Group, MODIS-Aqua Level-3 mapped chlorophyll-a**, available via https://oceandata.sci.gsfc.nasa.gov/l3/. The original reprocessing identifiers of the 80 study-specific subset NetCDF files have **not** been verified; the inspected local subset reports processing_version = "Unspecified". Do not assign an unverified original version or NASA granule DOI to these historical files.
+
+The 2026 geographic-buffer sensitivity results were added **after** the archived v3.7.8 release. They will require a **new** GitHub release and a **new Zenodo version DOI** to be treated as frozen archival outputs.
