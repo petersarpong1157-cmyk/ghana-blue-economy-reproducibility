@@ -45,7 +45,7 @@ Recorded audit environment: Windows 11; R 4.5.2; data.table 1.17.8; ranger 0.18.
 
 ## Publication and citation
 
-The manuscript is being prepared for journal submission. Do **not** infer that journal acceptance or publication has occurred. The archived GitHub release **v3.7.8** is available on Zenodo: https://doi.org/10.5281/zenodo.23542637. This DOI identifies the **v3.7.8 snapshot**, not subsequent changes on `main`. Future revisions should be cited using their own archived version when available.
+The revised manuscript has been approved by both coauthors for journal-submission preparation; this does not imply submission, acceptance, publication, or a completed Turnitin check. Do **not** infer that journal acceptance or publication has occurred. The frozen geographic-buffer reproducibility package **v3.8.0** is available on Zenodo: https://doi.org/10.5281/zenodo.23675855. Earlier **v3.7.8** is https://doi.org/10.5281/zenodo.23542637. Each DOI identifies its tagged snapshot, not subsequent changes to `main`. New audit documentation added in November 2026 has not automatically acquired a new Zenodo version DOI.
 
 ## License
 
@@ -58,3 +58,9 @@ The Ghana EEZ spatial boundary uses **Flanders Marine Institute (2023), Maritime
 The satellite chlorophyll source is **NASA/GSFC Ocean Biology Processing Group, MODIS-Aqua Level-3 mapped chlorophyll-a**, available via https://oceandata.sci.gsfc.nasa.gov/l3/. The original reprocessing identifiers of the 80 study-specific subset NetCDF files have **not** been verified; the inspected local subset reports processing_version = "Unspecified". Do not assign an unverified original version or NASA granule DOI to these historical files.
 
 The 2026 geographic-buffer sensitivity results were added **after** the archived v3.7.8 release. They will require a **new** GitHub release and a **new Zenodo version DOI** to be treated as frozen archival outputs.
+
+## November 2026 full-panel R/terra verification
+
+A new researcher-executed audit re-extracted all **65,258** records in the joined source panel against **80** unique MODIS-Aqua monthly NetCDF files with the current `terra::extract()` procedure. At tolerance **1e-5 mg/m³**, it found **zero** numeric or present/missing disagreements. Eighty additional NetCDF copies were byte-identical and safely excluded. The historical terra package version remains unconfirmed; alternative Python pixel-addressing and chlorophyll aggregation/lag analyses are exploratory. See [the dated technical audit](audits/2026-11-19_full_panel_terra_verification.md).
+
+The revised AER-targeted manuscript was approved by the coauthor for further submission preparation. The full manuscript and new figures are **not included in this Markdown audit update**. No formal Turnitin report or journal acceptance is claimed.
