@@ -1,0 +1,2 @@
+audit_date,source,months_checked,records_checked,n_mismatches,numeric_mismatches,archived_only,terra_only,cell_addressing_disagreements,mismatches_on_vertical_boundary,comparison_tolerance_mg_m3,unique_monthly_netcdf_files,identical_duplicate_files
+2026-11-19,Researcher-run RStudio console transcript,80,65258,0,0,0,0,0,0,0.00001,80,80
